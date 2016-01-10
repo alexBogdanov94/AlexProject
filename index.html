@@ -1,0 +1,99 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>alex.bogdanov.info</title>
+
+
+<link rel="stylesheet" href="css/jquery-ui.min.css"/>
+
+<link rel="stylesheet" href="css/main.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<!--jquery minifed-->
+<script>
+$(document).ready(function() {
+$('#content').hide();
+
+$('#open').click( function() {
+$('#content').animate({
+width: 'toggle'
+},1000);
+
+
+
+
+	
+
+});//end click
+$("#openMob").click(function(){
+        $("#content").slideToggle("slow");
+    });//end openMob
+
+});
+
+</script>
+
+<body>
+<div id="try">
+<img src="Images/doorSlideMobile.png" alt="door_slide"/>
+
+<div class="blink">
+
+<p id="openMob">open me</p>
+</div><!--end open me-->
+
+</div><!--end try-->
+
+    <div id="content">
+	
+      <p class="inv"></p>
+	  <div class="pic">
+	  <a href="#"> <img src="Images/profile_pic.png" alt="profile picture"></a>
+	  </div>
+	  
+<div id="navbar">
+<ul>
+  <li><a>portfolio</a></li>
+   <li><a>tests</a></li>
+   <li><a>games</a></li>
+   <li><a>my story</a></li>
+</ul>    
+</div><!--end navbar-->
+
+<div class="icons">
+<a href="https://www.facebook.com/alex.bogdanov.9026" class="facebook"></a>
+<a href="https://github.com/alexBogdanov94" class="github"></a>
+<a href="mailto:alexander.bogdanov.eng@gmail.com"  class="google"></a>
+</div><!--end icons-->
+
+      <div class="footer">
+        <p id="time"><span>&copy;</span>copyright </p>
+      </div><!--end footer-->
+  </div><!--end content-->
+
+<div id="door">
+<img src="Images/slide_door_tre.png"  alt="btn" />
+
+ <div id="strip">
+
+ </div><!--end button-->
+<p id="open">open me</p>
+ </div><!--end door-->
+
+<!--mobile slide door-->
+	  <div class="slideMobile">
+	  <img src="Images/door_stable_mobile.png"  alt="stable_mobile"/>
+	  </div>
+
+<script>
+var time = new Date();
+var year = time.getFullYear();
+document.getElementById('time').innerHTML +=(year);
+</script>
+
+</body>
+</html>
