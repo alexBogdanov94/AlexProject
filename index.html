@@ -6,58 +6,35 @@
 <title>alex.bogdanov.info</title>
 
 
-<link rel="stylesheet" href="css/jquery-ui.min.css"/>
+
 
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/animations.main.css">
 
-<!-- Latest compiled and minified JavaScript -->
 <script src="js/jquery.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
 <!--jquery minifed-->
-<script>
-$(document).ready(function() {
-$('#content').hide();
-
-$('#open').click( function() {
-$('#content').animate({
-width: 'toggle'
-},1000);
+    <script src="js/main.js"></script>
 
 
-
-
-	
-
-});//end click
-$("#openMob").click(function(){
-        $("#content").slideToggle("slow");
-    });//end openMob
-
-});
-
-</script>
 
 <body>
+    <div class="bg">
 <div id="try">
-<img src="Images/doorSlideMobile.png" alt="door_slide"/>
+<img src="Images/header-mobile.png" alt="door_slide"/>
 
-<div class="blink">
-
-<p id="openMob">open me</p>
-</div><!--end open me-->
 
 </div><!--end try-->
-
+ <p id="openMob">open me</p>
     <div id="content">
 	
       <p class="inv"></p>
 	  <div class="pic">
-	  <a href="#"> <img src="Images/profile_pic.png" alt="profile picture"></a>
+	  <a href="portfolio.html"> <img src="Images/profile_pic.png" alt="profile picture"></a>
 	  </div>
 	  
 <div id="navbar">
 <ul>
-  <li><a>portfolio</a></li>
+  <li><a href="portfolio.html">portfolio</a></li>
    <li><a>tests</a></li>
    <li><a>games</a></li>
    <li><a>my story</a></li>
@@ -74,26 +51,31 @@ $("#openMob").click(function(){
         <p id="time"><span>&copy;</span>copyright </p>
       </div><!--end footer-->
   </div><!--end content-->
-
+<div class="logo-holder">
+    <img src="Images/logo-shield.png"/>
+    </div><!--end of image-->
 <div id="door">
-<img src="Images/slide_door_tre.png"  alt="btn" />
-
+<img src="Images/slide_door.png"  alt="btn"/>
+        </div>
  <div id="strip">
 
  </div><!--end button-->
 <p id="open">open me</p>
+   
+    
  </div><!--end door-->
-
+       
+<div class="caption">
+    <p class="">Hello</p>
+    <p class="myName">My name <br/>is<br/><span>Alex</span><p>
+    <p class="welcome">Welcome to<br> my webpage</p>
+    <p class="and"><span>and</span></p>
+    <p>touch<br/> the<br/> <span>future</span></p>
+    </div><!-end caption-->
+       
 <!--mobile slide door-->
 	  <div class="slideMobile">
-	  <img src="Images/door_stable_mobile.png"  alt="stable_mobile"/>
+	  <img src="Images/door-slide.png"  alt="stable_mobile"/>
 	  </div>
-
-<script>
-var time = new Date();
-var year = time.getFullYear();
-document.getElementById('time').innerHTML +=(year);
-</script>
-
 </body>
 </html>

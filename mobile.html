@@ -1,0 +1,72 @@
+<DOCTYPE html>
+<head>
+<title>title.com</title>
+<metacharset="UTF-8"/>
+<link rel="stylesheet" href="mobile.css"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script>
+$(document).ready(function(){
+$('#content').hide();
+    $("#openMob").click(function(){
+        $("#content").slideToggle("slow");
+    });
+});
+</script>
+</head>
+<body>
+
+<div id="try">
+<img src="Images/doorSlideMobile.png" alt="door_slide"/>
+
+<div class="blink">
+
+<p id="openMob">open me</p>
+</div><!--end open me-->
+
+</div><!--end try-->
+
+
+
+
+
+ <div id="content">
+	
+      <p class="inv"></p>
+	  
+	
+	  <div class="pic">
+	  <a href="#"> <img src="Images/profile_pic.png" alt="profile picture"></a>
+	  </div>
+	  
+<div id="navbar">
+<ul>
+  <li><a>portfolio</a></li>
+   <li><a>tests</a></li>
+   <li><a>games</a></li>
+   <li><a>my story</a></li>
+</ul>    
+</div><!--end navbar-->
+
+	   	  <div class="icons">
+<a href="https://www.facebook.com/alex.bogdanov.9026" class="facebook"></a>
+<a href="https://github.com/alexBogdanov94" class="github"></a>
+<a href="mailto:alexander.bogdanov.eng@gmail.com"  class="google"></a>
+</div><!--end icons-->
+
+      <div class="footer">
+
+        <p><span>&copy;</span> copyright 2015</p>
+      </div><!--end footer-->
+	  </div><!--end content-->
+	 <div class="slideMobile">
+	  <img src="Images/door_stable_mobile.png"  alt="stable_mobile"/>
+	  </div><!--end slidemobile-->
+
+
+
+	 
+	  
+
+</body>
+</html>

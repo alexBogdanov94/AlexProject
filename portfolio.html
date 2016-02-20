@@ -1,0 +1,133 @@
+								
+
+<DOCTYPE html>
+<head>
+<title>portfolio</title>
+<metacharset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/side-bar-hover.css"/>
+<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+
+<script>
+    $(document).ready(function(){
+         $('#content').hide();
+$("#hover").click(function(){
+        $("#content").toggle(700);
+    
+    
+ });//end mouseover
+  
+ 
+
+$('.answer').hide();
+     $('.main .faq h2').click(function(){
+    var $answer = $(this).next('.answer');
+if ($answer.is(':hidden')) {
+$answer.slideDown(300);
+$(this).addClass('active');
+}else{
+$answer.slideUp(400);
+$(this).removeClass('active');
+}
+     });
+
+});///end ready
+    </script>
+   
+    </head>   
+  <body>
+                <a href="index.html"><img src="Images/logo-shield.png" class="logo" alt="logo-shield"/></a><!--end of logo-->
+          
+      
+ <div id="content">
+     <div class="pic">
+	  <a href="portfolio.html"> <img src="Images/profile_pic.png" alt="profile picture"></a>
+	  </div>
+<div id="navbar">
+<ul>
+  <li><a>portfolio</a></li>
+   <li><a>tests</a></li>
+   <li><a>games</a></li>
+   <li><a>my story</a></li>
+</ul>    
+</div><!--end navbar-->
+   	   	  <div class="icons">
+<a href="https://www.facebook.com/alex.bogdanov.9026" class="facebook"></a>
+<a href="https://github.com/alexBogdanov94" class="github"></a>
+<a href="mailto:alexander.bogdanov.eng@gmail.com"  class="google"></a>
+</div><!--end icons-->
+
+ </div><!--end content-->
+	     	<div id="hover">
+    <div>
+    </div>
+</div>   	  <!--end of footer-->
+
+<div class="main"> 
+
+   
+      <div class="faq">
+  <h2>  basic information    </h2>
+      <div class="answer">
+          <p>Name:Alexander Bogdanov<br/> Address: Mashinistiv 16, ap. 13 Kharkov, Ukraine<br/>
+              Contact: +38 063 277 18 10<br/>Email: alexander .bogdanov.eng  @gmail.com</p>
+          </div>
+        </div><!--end of faqr-->
+    
+          <div class="faq">
+  <h2> career objective    </h2>
+      <div class="answer">
+          <p> With a strong technical skill-set, attention to detail, and 9+ months of experience, I want to work as a front-end web developer where I could craft my skills and elevate user experience to the next level.  </p>
+          </div><!--end of amswe-->
+        </div><!--end of faqr-->   
+          <div class="faq">
+  <h2>summary of skills</h2>
+      <div class="answer">
+          <p> - Strong understanding of industry trends and development cycle.<br/>
+ - Unique ability to improvise, grasp new skills and troubleshoot problems.<br/>
+ - Experienced in communicating with clients.<br/>
+ - Very comfortable and passionate about adopting ideas and bringing them to life through technology.<br/>
+- Well-organized with an ability to prioritize tasks.<br/>
+- Highly drive to meed deadlines.<br/>
+- Capability to work and flourish in fast-paced environment.<br/>   </p>
+          </div><!--end of amswe-->
+        </div><!--end of faqr-->      
+
+          <div class="faq">
+              <h2>technical skills</h2>
+      <div class="answer">
+          <p> - Web Skills: CSS, HTML, XML, web standards and accessibility, cross-browser compatibility, JavaScript, mobile web designs.<br/>
+- Web Tools: Photoshop/Illustrator.<br/>
+- Application Software: Adobe Acrobat Professional, MS Office Suite.<br/>
+- Content Management Systems: WordPress, Drupal, Radiant.<br/>
+- Operating Systems: Windows. <br/>  </p>
+          </div><!--end of amswe-->
+        </div><!--end of faqr-->      
+
+          <div class="faq">
+  <h2>education</h2>
+      <div class="answer">
+          <p> - Undergraduate Degree in Welding Production
+Kharkov Machinery college
+2011 <br/>
+- Student in Technical Translation (Faculty of Information Technology),
+Kharkov Polytechnic University  
+   </p>
+          </div><!--end of amswe-->
+        </div><!--end of faqr-->      
+
+
+</div><!--end of main-->
+
+      <div class="footer">
+
+        <p><span>&copy;</span> copyright 2015</p>
+      </div><!--end footer-->
+
+</body>
+</html>
+
+</body>
+</html>
