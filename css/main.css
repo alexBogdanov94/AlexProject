@@ -322,7 +322,10 @@ background: #f5dac3;
 }
 /*for larger screens*/
 @media only screen and (min-width : 768px) {
-
+    html,body {
+        height: 100%;
+        overflow: hidden;
+    }
      #openMob {
         display: none;
     }  
@@ -340,7 +343,7 @@ display: none;
 /*end mob styles/*/
 .bg {
     
-    position: absolute;
+    position: relative;
     z-index: 13;
     height: 100%;
     width: 100%;
@@ -403,10 +406,8 @@ display: none;
 	
 	
 }
-    #open p {
-        display: none
-    }
-#door p:hover {
+  
+#open:hover {
 
 cursor: pointer;}
     
