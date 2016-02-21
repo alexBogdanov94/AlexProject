@@ -23,6 +23,3 @@ $("#openMob").click(function(){
 });
 
 
-var time = new Date();
-var year = time.getFullYear();
-document.getElementById('time').innerHTML +=(year);
